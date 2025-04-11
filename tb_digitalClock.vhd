@@ -60,7 +60,7 @@ BEGIN
         );
 
     -- Clock process definitions 
-    Clock_process :process 
+    Clock_process: process 
     begin
         Clock <= '0';
         wait for Clock_period/2; 
